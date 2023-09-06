@@ -1,0 +1,447 @@
+body{
+    text-align: center;
+
+}
+
+#created-by{
+font-family: Urbanist;
+font-size: 32px;
+font-weight: bolder;
+line-height: 22px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+}
+.container {
+display: block;    
+margin: 0px auto;
+width: 390px;
+height: 1432px;
+background-color: white;
+border: 1px solid lightslategray;
+border-radius: 20px;
+box-shadow: 4px 4px 5px black;
+}
+
+#status-bar{
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    width: 380px;
+    height: 44px;
+list-style: body / large / semibold;
+font-family: Urbanist;
+font-size: 16px;
+font-weight: 800;
+line-height: 22px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+padding-left: 20px;
+
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 260px;
+    
+}
+#signal{
+    width: 18px;
+    height: 10px;
+    
+}
+#wifi{
+    width: 15.27237606048584px;
+    height: 10.965471267700195px;
+    margin: auto 5px;
+  
+}
+#battery{
+    width: 26.97806167602539px;
+    height: 13px;
+}
+
+#second-bar{
+display: flex;    
+width: Fixed (390px);
+height: 56px;
+top: 44px;
+padding: 8px 20px 8px 20px;
+justify-content: space-between;
+
+}
+#circle-one{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width:40px;
+    height:40px;
+    padding: 8px;
+    border-radius: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    gap: 8px;
+
+}
+#circle-two{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width:40px;
+    height:40px;
+    padding: 8px;
+    border-radius: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    gap: 8px;
+    
+    }
+
+    #arrow-left{
+        width: 32px;
+        height: 32px;
+    }
+
+    #vertical-dots{
+        width: 32px;
+        height: 32px;
+    }
+
+    #carousel{
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        align-items: end;
+        width: 350px;
+        height: 264px;
+        border-radius: 16px;
+        border: 0px solid black;
+        margin: 10px auto;
+        background-image: url("bg.png");
+        background-size: cover;
+        padding-bottom: 10px;
+    
+
+    }
+    #gym-title{
+        font-family: 'Inter', sans-serif;
+        display: block;
+        text-align: left;
+        margin: 0px 20px;
+        line-height: 8px;;
+    }
+
+    #distance{      
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.008em;
+        text-align: left;
+        margin-bottom: 15px;
+        }
+
+    #start-text{
+        display: flex;
+        align-items: center;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.008em;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.56);
+    }
+
+   #price{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.008em;
+    color:rgba(0, 0, 0, 1);
+   } 
+
+   #star{
+    width: 16px;
+    height: 16px; 
+    margin-left: 15px;  
+   }
+
+    #rating{
+        color: black;
+        font-weight: 800;
+        size: 20px;
+    }
+
+    #reviews{
+        text-decoration: underline;
+        margin-bottom: 10px;
+    }
+
+    #coaches{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    #coach-picture{
+        border: 0px solid black;
+        border-radius: 48px;
+        height: 40px;
+        width: 40px;
+        margin-left: 20px;
+        background-image: url(ava.png);
+        background-size: cover;
+    }
+
+    #name{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 24px;
+        letter-spacing: 0.008em;
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+#coach-sub{
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.008em;
+        text-align: left;
+        margin: 0px 0px 5px 10px;
+}
+#picture-one{
+    justify-content: start;
+    height: 12px;
+    width: 12px;
+    border: 1px solid white;
+    border-radius: 48px;
+    background: white;
+}
+#picture-two, #picture-three{
+    justify-content: start;
+    height: 12px;
+    width: 12px;
+    border: 1px solid white;
+    border-radius: 48px;
+}
+#amenities{
+    display: block;
+    justify-content: center;
+    margin: 0px auto 30px auto;
+    height: 128px;
+    width: 350px;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.008em;
+text-align: left;
+padding: 0px;
+}
+
+#amenities-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.008em;
+    text-align: center;
+}
+
+#bathroom{
+    height: 64px;
+    width: 64px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-radius: 48px;
+    
+}
+#lockers{
+    height: 64px;
+    width: 64px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-radius: 48px;
+}
+#showers{
+    height: 64px;
+    width: 64px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-radius: 48px;
+}
+#free-wifi{
+    height: 64px;
+    width: 64px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-radius: 48px;
+}
+
+#amenities-fill-1{
+    display: block;
+  margin: 4px auto;
+    height: 54px;
+    width: 54px;
+    border: 1px solid white;
+    border-radius: 48px;
+    background: rgba(0, 0, 0, 0.04);
+    background-image: url(bathroom-tub.png);
+    background-position: center;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+}
+#amenities-fill-2{
+    display: block;
+  margin: 4px auto;
+    height: 54px;
+    width: 54px;
+    border: 1px solid white;
+    border-radius: 48px;
+    background: rgba(0, 0, 0, 0.04);
+    background-image: url(lockers.png);
+    background-position: center;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+
+}
+#amenities-fill-3{
+    display: block;
+  margin: 4px auto;
+    height: 54px;
+    width: 54px;
+    border: 1px solid white;
+    border-radius: 48px;
+    background: rgba(0, 0, 0, 0.04);
+    background-image: url(shower.png);
+    background-position: center;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+
+}
+#amenities-fill-4{
+    display: block;
+  margin: 4px auto;
+    height: 54px;
+    width: 54px;
+    border: 1px solid white;
+    border-radius: 48px;
+    background: rgba(0, 0, 0, 0.04);
+    background-image: url(wifi-check.png);
+    background-position: center;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+}
+#descriptions{
+width: 350px; 
+height: 66px;
+margin: 12px 0px 12px 28px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.008em;
+text-align: left;
+}
+#text-bold{
+font-family: Inter;
+font-size: 14px;
+font-weight: bolder;
+line-height: 22px;
+letter-spacing: 0.008em;
+text-align: left;
+}
+
+
+#photos{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+#big-photo{
+    width: 203px;
+    height: 252px;
+    border-radius: 12px;
+    background-image: url(bodybuilder.png);
+    background-size: cover;
+}
+
+#small-photos{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+#small-photo-1{
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    background-image: url(bb-3.png);
+    background-size: cover;
+}
+#small-photo-2{
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    background-image: url(bb-2.png);
+    background-size: cover;
+}
+
+#location-text{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.008em;
+    text-align: left;
+    margin-left: 24px;
+    margin-bottom: 12px;
+}
+#map-container{
+    margin: 0px auto;
+    width: 350px;
+    height: 178px;
+    border-radius: 12px;
+    background-image: url(map.png);
+    background-size: cover;
+
+}
+#address{
+font-family: Inter;
+font-size: 14px;
+font-weight: lighter;
+line-height: 22px;
+letter-spacing: 0.008em;
+text-align: left;
+margin-left: 24px;
+}
+
+#reserve-btn{
+    width: Fixed (390px);
+    height: Hug (78px);
+    top: 1334px;
+    padding: 8px 20px 24px 20px;
+    gap: 8px;
+}
+
+#btn-itself{
+    display: block;
+    margin: 0px auto;
+    background: rgba(84, 122, 205, 1);
+    padding: 12px 24px;
+    border-radius: 20px;
+    gap: 8px;
+}
+
+#btn-text{
+padding: 0px;
+margin: 0px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0.008em;
+text-align: center;
+color: white;
+}
